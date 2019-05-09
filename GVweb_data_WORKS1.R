@@ -35,13 +35,14 @@ GV_map <- leaflet(data=GV)
 GV_map <- leaflet(data=GV) %>%
   addTiles(urlTemplate = "http://mapwarper.net/maps/tile/38310/{z}/{x}/{y}.png") %>%
   addMarkers(~Long, ~Lat,
-             popup = paste(popupImage(list("https://github.com/alisonporchnik/GV_Map.io/blob/master/images/quill.jpg",
-                                            "https://github.com/alisonporchnik/GV_Map.io/blob/master/images/GV_bookshop.jpg",
+             popup = paste(popupImage(list( "https://raw.githubusercontent.com/alisonporchnik/GV_Map.io/master/images/quill.jpg?embed=true",
+                                            "https://raw.githubusercontent.com/alisonporchnik/GV_Map.io/master/images/WS_Bookshop.jpg?embed=true",
                                             "https://raw.githubusercontent.com/alisonporchnik/GV_Map.io/master/images/GV_Bookshop.jpg",
                                             "http://gothamist.com/attachments/arts_jen/madhatter2.jpg",
-                                            "https://raw.githubusercontent.com/alisonporchnik/GV_Map.io/master/images/romany'_SM.jpeg",
+                                            "https://raw.githubusercontent.com/alisonporchnik/GV_Map.io/master/images/romanySM.jpeg?embed=true",
                                             "https://ephemeralnewyork.files.wordpress.com/2008/06/pollyholladays.jpg",
-                                            "https://ephemeralnewyork.files.wordpress.com/2011/04/romanymarietavern.jpg")), "<br>" ,
+                                            "https://github.com/alisonporchnik/GV_Map.io/blob/master/images/WS_South_Brunos.jpeg?embed=true",
+                                          "https://raw.githubusercontent.com/alisonporchnik/GV_Map.io/master/images/bobby4.jpg?embed=true)), "<br>" ,
                                             "Establishment:", GV$Establishment, "<br>" ,
                                                "Address:" , GV$Address, "<br>" , "About" , paste(GV$About)))
 
