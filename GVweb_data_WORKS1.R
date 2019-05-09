@@ -41,7 +41,7 @@ GV_map <- leaflet(data=GV) %>%
                                             "http://gothamist.com/attachments/arts_jen/madhatter2.jpg",
                                             "https://raw.githubusercontent.com/alisonporchnik/GV_Map.io/master/images/romanySM.jpeg?embed=true",
                                             "https://ephemeralnewyork.files.wordpress.com/2008/06/pollyholladays.jpg",
-                                            "https://github.com/alisonporchnik/GV_Map.io/blob/master/images/WS_South_Brunos.jpeg?embed=true",
+                                            "https://raw.githubusercontent.com/alisonporchnik/GV_Map.io/master/images/WS_South_Brunos.jpeg?embed=true",
                                           "https://raw.githubusercontent.com/alisonporchnik/GV_Map.io/master/images/bobby4.jpg?embed=true)), "<br>" ,
                                             "Establishment:", GV$Establishment, "<br>" ,
                                                "Address:" , GV$Address, "<br>" , "About" , paste(GV$About)))
