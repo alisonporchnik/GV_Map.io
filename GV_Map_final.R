@@ -6,7 +6,7 @@ require(maps)
 require(rgeos)
 require(sp)
 
-GV<-read.csv("map_draft_2.csv")
+GV<-read.csv("GV_Map.csv")
 head(GV)
 
 GV$Long <- GV$LONGITUDE
@@ -39,7 +39,7 @@ GV_map <- leaflet(data=GV) %>%
               "", GV$ID, "<br>", 
               "Establishment:", GV$Establishment, "<br>",
               "Address:", GV$Address, "<br>",
-              "About", GV$About))
+              "About:", GV$About))
                      
 GV_map
 saveWidget(GV_map, file="GV_locations.html")
