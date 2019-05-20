@@ -11,7 +11,7 @@ head(GV)
 
 GV$Long <- GV$LONGITUDE
 GV$Lat <- GV$LATITUDE
-GV$Establishment <-GV$ESTABLISHMENT
+GV$Name <-GV$NAME
 GV$Address <- GV$ADDRESS
 
 coords <- cbind(GV$Long, GV$Lat)
@@ -27,20 +27,19 @@ library(leaflet)
 require(leaflet)
 library(htmlwidgets)
 require(htmlwidgets)
-#require(leafpop)
-GV<-read.csv("GV_Map.csv")
+GV<-read.csv("GV_map.csv")
 head(GV)
 
 GV_map <- leaflet(data=GV) 
 GV_map <- leaflet(data=GV) %>%
   addTiles(urlTemplate = "http://mapwarper.net/maps/tile/38310/{z}/{x}/{y}.png") %>%
   addMarkers(~Long, ~Lat, 
-             popup = paste ("<img src =", GV$Image, " /><br>",
-              "", GV$ID, "<br>", 
-              "Establishment:", GV$Establishment, "<br>",
-              "Address:", GV$Address, "<br>",
-              "About:", GV$About))
-                     
+             popup = paste(
+                  "<img src =", GV$Image, " /><br>",
+                  "Name:", GV$Name, "<br>", 
+                  "Address:", GV$ID, "<br>", 
+                  "About:", GV$About, "</div>"))
+                    
 GV_map
 saveWidget(GV_map, file="GV_locations.html")
                                             
