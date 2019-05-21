@@ -36,9 +36,9 @@ GV_map <- leaflet(data=GV) %>%
   addMarkers(~Long, ~Lat, 
              popup = paste(
                   "<img src =", GV$Image, " /><br>",
-                  "Name:", GV$Name, "<br>", 
-                  "Address:", GV$ID, "<br>", 
-                  "About:", GV$About, "</div>"))
+                  " ", GV$Name, "<br>", 
+                  " ", GV$ID, "<br>","<br>", 
+                  " ", GV$About, "</div>"))
                     
 GV_map
 saveWidget(GV_map, file="GV_locations.html")
