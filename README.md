@@ -1,6 +1,6 @@
-<b><red>Notes: Fix formatting/spacing on popups
-<b>fix geo on Mad Hatter
-    <b>Rewrite WSBookshop text</red></b>
+<b><li>Notes: Fix formatting/spacing on popups
+<b><li>Fix geo on Mad Hatter
+<b><li>Rewrite WSBookshop text</b>
 
 <html>
     <head>
