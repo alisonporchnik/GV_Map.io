@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sloth Emporium - Sleep Tutorial</title>
+    </head>
+       <link rel="stylesheet" type="text/css" href="style.css">
+    <nav>
+            <a href="file:///Users/me/projects/sloth-emporium/index.html">Home</a> 
+            <a href="file:///Users/me/projects/sloth-emporium/about.html">About</a>
