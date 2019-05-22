@@ -1,3 +1,4 @@
+install.packages(data.table)
 require(data.table)
 require(rgdal)
 require(maptools)
