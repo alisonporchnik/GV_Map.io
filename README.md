@@ -1,3 +1,7 @@
+#Notes: Fix formatting/spacing on popups
+#fix geo on Mad Hatter
+#Rewrite WSBookshop text
+
 <html>
     <head>
     <title>Bohemian Greenwich Village</title>
@@ -8,8 +12,7 @@
 <p>Lisa Hirschfield  May 2019</p>
 <br/>
 <br/>
-<p>cats with pink ears pelt around the house and up and down stairs chasing phantoms and plan steps for world domination and scratch at the door then walk away or twitch tail in permanent irritation purr while eating. Love and coo around boyfriend who purrs and makes the perfect moonlight eyes so i can purr and swat the glittery gleaming yarn to him (the yarn is from a $125 sweater) mew. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am small kitty warm kitty little balls of fur at four in the morning wake up owner meeeeeeooww scratch at legs and beg for food then cry and yowl until they wake up at two pm jump on window and sleep while observing the bootyful cat next door that u really like but who already has a boyfriend end up making babies with her and let her move in. Hide head under blanket so no one can see scratch the box or sun bathe, kitty poochy so jump around on couch, meow constantly until given food, , but claw your carpet in places everyone can see - why hide my amazing artistic clawing skills?. Hunt anything that moves check cat door for ambush 10 times before coming in. Stares at human while pushing stuff off a table. Stand in doorway, unwilling to chose whether to stay in or go out. Eat and than sleep on your face.
-Scratch leg; meow for can opener to feed me damn that dog drink water out of the faucet i want to go outside let me go outside nevermind inside is better so check cat door for ambush 10 times before coming in. Lick master's hand at first then bite because im moody groom forever, stretch tongue and leave it slightly out, blep man running from cops stops to pet cats, goes to jail yet cats woo but cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog yet nya nya nyan, so being gorgeous with belly side up. If it fits, i sits ask to be pet then attack owners hand, for catch mouse and gave it as a present and then cats take over the world wack the mini furry mouse loves cheeseburgers cuddle no cuddle cuddle love scratch scratch. Purrr purr littel cat, little cat purr purr. Lick human with sandpaper tongue kitten is playing with dead mouse catch mouse and gave it as a present but attack feet. Twitch tail in permanent irritation push your water glass on the floor meow go back to sleep owner brings food and water tries to pet on head, so scratch get sprayed by water because bad cat. Experiences short bursts of poo-phoria after going to the loo chase after silly colored fish toys around the house.</p>
+<p>
 
 <br/>
 <br/>
