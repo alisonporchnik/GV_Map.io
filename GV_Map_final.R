@@ -42,5 +42,5 @@ GV_map <- leaflet(data=GV) %>%
                   " ", GV$About, "</div>"))
                     
 GV_map
-saveWidget(GV_map, file="GV_locations.html")
+saveWidget(GV_map, file="<Bohemian_Greenwich_Village.html")
                                             
