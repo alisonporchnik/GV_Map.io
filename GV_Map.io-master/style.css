@@ -1,0 +1,40 @@
+h1 {
+    font-family: "Helvetica Neue", sans-serif;
+    color: black;
+    font-weight: 400;
+    font-variant-ligatures: normal;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+h2 {
+        font-family: "Helvetica Neue", sans-serif;
+        color: saddlebrown;
+        font-weight: 300;
+        font-variant-ligatures: normal;
+        font-size: 18px;
+        letter-spacing: 1px;
+}
+h3 {
+        font-family: "Helvetica Neue", sans-serif;
+        color: saddlebrown;
+        font-weight: 200;
+        font-variant-ligatures: normal;
+        font-size: 14px;
+        letter-spacing: 1px; 
+}
+body {
+    margin: 0% 10% 10% 10%; 
+    background-color:cornsilk; 
+}
+
+p {
+
+        width: 950px;
+        margin: 0 auto;
+        font-family: "Helvetica Neue", sans-serif;
+        color: saddlebrown;
+        font-weight: 200;
+        font-variant-ligatures: normal;
+        font-size: 14px;
+        letter-spacing: 1px; 
+}
